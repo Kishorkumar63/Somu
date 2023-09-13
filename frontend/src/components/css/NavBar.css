@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+
+nav{
+    background-color:#F79F1F;
+}
+nav .container-fluid .navbar-brand{
+    font-family: 'Charm', cursive;
+    font-size: 1.4rem;
+    color:white;
+}
+nav .container-fluid .navbar-brand{
+   
+    font-weight: 500;
+    color:#c23616;
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right:1px solid white ;
+    transition: 0.1s;
+    animation: typing 8s steps(20) infinite;
+  }
+  
+  @keyframes typing {
+    0%{
+      width: 0ch;
+    }
+    50%{
+      width: 25ch;
+      transition: 0.1s;
+    }
+  }
