@@ -3,7 +3,7 @@
 
 
 nav{
-    background-color:#F79F1F;
+    background-color:#000000;
 }
 nav .container-fluid .navbar-brand{
     font-family: 'Charm', cursive;
@@ -13,7 +13,7 @@ nav .container-fluid .navbar-brand{
 nav .container-fluid .navbar-brand{
    
     font-weight: 500;
-    color:#c23616;
+    color:white;
     width: 0ch;
     white-space: nowrap;
     overflow: hidden;
@@ -27,7 +27,22 @@ nav .container-fluid .navbar-brand{
       width: 0ch;
     }
     50%{
-      width: 25ch;
+      width: 15ch;
       transition: 0.1s;
     }
+  }
+  nav .container-fluid .navbar-toggler span
+  {
+    color: white;
+    font-size: 25px;
+    width: 25px;
+  }
+  nav .container-fluid  .offcanvas-end
+  {
+    background-color: rgba(0, 0, 0, 0.714);
+    color: white;
+  }
+  nav .container-fluid  .offcanvas-end  .offcanvas-header 
+  {
+    color: white;
   }
